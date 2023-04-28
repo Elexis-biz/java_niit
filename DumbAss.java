@@ -58,7 +58,21 @@ public class DumbAss {
 
     public static void main(String[] args) {
         DumbAss da = new DumbAss();
-        da.setUserName("Chi chi");
-        System.out.println(da.getUserName());
+
+        da.setId(645); //setting id to a value
+        System.out.println("User Id: " + da.getUserId());
+
+        da.setUserName("Chi chi"); // setting name to chi chi
+        System.out.println("Username: " + da.getUserName()); // gets name
+
+        da.setUserEmail("elexis@gmail.com"); //sets
+        System.out.println("Email: " + da.getUserEmail()); // gets
+
+        da.setUserPassword("billions@30*");
+        System.out.println("Password: " + da.getUserPassword());
+
+        da.setPhoneNumber("09023846504");
+        System.out.println("Phone NO: " + da.getUserPhoneNo());
+
     }
 }
