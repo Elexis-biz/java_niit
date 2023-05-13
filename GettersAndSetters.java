@@ -1,6 +1,6 @@
 package java_niit;
 
-public class DumbAss {
+public class GettersAndSetters {
     // we're treating getters and setters basically
     // getters: return value, setters: set value to another variable
     private int id;
@@ -56,22 +56,22 @@ public class DumbAss {
 
 
     public static void main(String[] args) {
-        DumbAss da = new DumbAss();
+        GettersAndSetters gas = new GettersAndSetters();
 
-        da.setId(645); //setting id to a value
-        System.out.println("User Id: " + da.getUserId());
+        gas.setId(645); //setting id to a value
+        System.out.println("User Id: " + gas.getUserId());
 
-        da.setUserName("Chi chi"); // setting name to chi chi
-        System.out.println("Username: " + da.getUserName()); // gets name
+        gas.setUserName("Chi chi"); // setting name to chi chi
+        System.out.println("Username: " + gas.getUserName()); // gets name
 
-        da.setUserEmail("elexis@gmail.com"); //sets
-        System.out.println("Email: " + da.getUserEmail()); // gets
+        gas.setUserEmail("elexis@gmail.com"); //sets
+        System.out.println("Email: " + gas.getUserEmail()); // gets
 
-        da.setUserPassword("billions@30*");
-        System.out.println("Password: " + da.getUserPassword());
+        gas.setUserPassword("billions@30*");
+        System.out.println("Password: " + gas.getUserPassword());
 
-        da.setPhoneNumber("09023846504");
-        System.out.println("Phone NO: " + da.getUserPhoneNo());
+        gas.setPhoneNumber("09023846504");
+        System.out.println("Phone NO: " + gas.getUserPhoneNo());
 
     }
 }
