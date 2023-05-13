@@ -33,7 +33,6 @@ public class DumbAss {
     }
 
     // Setter method..
-
     public void setId(int id) {
         //
         this.id = id;
