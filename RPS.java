@@ -1,4 +1,3 @@
-package java_niit;
 import java.util.*;
 
 public class RPS {
@@ -9,7 +8,7 @@ public class RPS {
         // So from this we would be using the comparison operator == and if construct
 
         System.out.println("Welcome to Rock, Paper and Scissors game!");
-        // System.out.println("You have only 5 tries");
+        // The game restarts until the user wins!!
         gameStart();
 
     }
@@ -38,6 +37,7 @@ public class RPS {
                     break;
                     case "Paper":
                         System.out.println("You lost!");
+                        gameStart();
                         break;
                     case "Scissors":
                         System.out.println("Congratulations! You won.");
@@ -54,10 +54,11 @@ public class RPS {
                     break;
                     case "Paper":
                     System.out.println("We have a tie!");
-                    gameStart(); // if the computer guess and mine are the same, start game again
+                        gameStart(); // if the computer guess and mine are the same, start game again
                         break;
                     case "Scissors":
                         System.out.println("Oops, You lost!");
+                        gameStart();
                     break;
                     default:
                         break;
@@ -68,13 +69,14 @@ public class RPS {
                 switch (selectedString) {
                     case "Rock":
                     System.out.println("Oops, You lost!");
+                        gameStart();
                     break;
                     case "Paper":
                     System.out.println("Congratulations! You won.");
                         break;
                     case "Scissors":
                     System.out.println("We have a tie!");
-                    gameStart(); // if the computer guess and mine are the same, start game again
+                        gameStart(); // if the computer guess and mine are the same, start game again
                     break;
                     default:
                         break;
